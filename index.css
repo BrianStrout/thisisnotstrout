@@ -1,0 +1,24 @@
+:root {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  --base: black;
+}
+
+.shell {
+  width: 100vw;
+  height: 100vh;
+  background-color: var(--base);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.note {
+  width: 100%;
+  max-width: 380px;
+  aspect-ratio: 9/16;
+  background-image: url("./src/images/note forthisisnotstrout.png");
+  background-size: contain;
+  margin: auto;
+}/*# sourceMappingURL=index.css.map */
